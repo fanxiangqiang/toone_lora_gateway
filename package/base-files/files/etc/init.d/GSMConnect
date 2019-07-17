@@ -1,0 +1,5 @@
+#!/bin/sh /etc/rc.common
+START=99
+echo "####automatic ppp ,addy by fanxiangqiang  2019.7.16  GSM_GSM_4G model toone\r\n"> /dev/console #打印调试信息
+fournet &
+##/usr/bin/test & #自启动的可执行文件
